@@ -51,24 +51,24 @@
     "!*/__tests__"
   ],
   "dependencies": {
-    "@goatlab/fluent": "^0.1.0",
+    "@goatlab/fluent": "^0.2.5",
     "@loopback/boot": "^2.0.1",
     "@loopback/context": "^3.1.0",
     "@loopback/core": "^2.1.0",
+    "@loopback/extension-metrics": "^0.1.2",
     "@loopback/openapi-v3": "^3.1.0",
     "@loopback/repository": "^2.0.1",
     "@loopback/rest": "^3.0.1",
     "@loopback/rest-explorer": "^2.0.1",
     "@loopback/service-proxy": "^2.0.1",
-    "tslib": "^1.10.0",
-    "@loopback/extension-metrics": "^0.1.2",
     "chokidar": "^3.3.0",
     "dotenv": "^8.2.0",
     "loopback-connector-mongodb": "^5.2.1",
     "loopback-datatype-objectid": "^1.0.5",
     "oasgraph-cli": "^0.4.3",
     "openapi-to-graphql-cli": "^1.6.3",
-    "pm2": "^4.2.3"
+    "pm2": "^4.3.1",
+    "tslib": "^1.10.0"
   },
   "devDependencies": {
     "@loopback/build": "^4.0.1",
