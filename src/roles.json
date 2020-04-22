@@ -1,0 +1,10 @@
+{
+  "ids": {
+    "Role": 2
+  },
+  "models": {
+    "Role": {
+      "5e4bb637f571bca9c5328d9f": "{\"_id\":\"5e4bb637f571bca9c5328d9f\",\"name\":\"administrator\",\"description\":\"Role for admins only\"}"
+    }
+  }
+}
