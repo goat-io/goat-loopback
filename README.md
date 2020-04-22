@@ -1,6 +1,6 @@
 # Goat - Loopback (Base Template)
 
-Take Loopback to the next level by creating your API´s using Goat-Manager. Use the full potential of Loopback when needed and live the tedious tasks to us!
+Take Loopback to the next level by creating your API´s using Goat-Manager. Use the full potential of Loopback when needed and leave the tedious tasks to us!
 
 ### Installing
 
