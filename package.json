@@ -22,7 +22,7 @@
     "generate:api": "node ./.goat/generate.ts",
     "test": "npm run build && NODE_ENV=test lb-mocha --allow-console-logs --recursive --delay --timeout 10000 \"dist/\" --exit",
     "build:apidocs": "lb-apidocs",
-    "build": "rm -rf tsconfig.tsbuildinfo && lb-clean dist && mkdir ./dist && lb-tsc --target ES2019 --outDir ./dist",
+    "build": "rm -rf tsconfig.tsbuildinfo && rm -rf ./dist && mkdir ./dist && lb-tsc --target ES2019 --outDir ./dist",
     "build:watch": "lb-tsc --watch",
     "clean": "lb-clean dist",
     "lint": "npm run prettier:check && npm run tslint",
@@ -60,6 +60,7 @@
     "@loopback/rest": "^3.3.1",
     "@loopback/rest-explorer": "^2.1.1",
     "@loopback/service-proxy": "^2.1.1",
+    "@loopback/build": "^4.0.1",
     "chokidar": "^3.3.0",
     "dotenv": "^8.2.0",
     "loopback-connector-mongodb": "^5.2.1",
@@ -70,7 +71,6 @@
     "tslib": "^1.10.0"
   },
   "devDependencies": {
-    "@loopback/build": "^4.0.1",
     "source-map-support": "^0.5.16",
     "@loopback/testlab": "^3.1.1",
     "@types/node": "^10.17.17",
